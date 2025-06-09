@@ -74,4 +74,7 @@ export interface Product {
   status: string;
   date_created: string;
   last_updated: string;
+  category: string;
+  subcategories: string[];
+  recommendations: string;
 }

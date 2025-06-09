@@ -7,9 +7,11 @@
     "dev": "ts-node-dev src/server.ts"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/node": "^22.15.30",
     "ts-node-dev": "^2.0.0",
