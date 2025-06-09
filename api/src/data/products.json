@@ -1,0 +1,273 @@
+[
+  {
+    "id": "MLA83796059239",
+    "site_id": "MLA",
+    "title": "Samsung Galaxy A15 128 GB",
+    "subtitle": "",
+    "seller_id": 987654321,
+    "category_id": "MLA1432",
+    "official_store_id": null,
+    "price": 299999,
+    "base_price": 299999,
+    "original_price": 389999,
+    "currency_id": "ARS",
+    "initial_quantity": 76,
+    "available_quantity": 2,
+    "sold_quantity": 50,
+    "sale_terms": [],
+    "buying_mode": "buy_it_now",
+    "listing_type_id": "gold_special",
+    "start_time": "2018-08-04T02:27:28.000Z",
+    "stop_time": "2038-07-29T04:00:00.000Z",
+    "condition": "new",
+    "permalink": "https://www.mercadolibre.com.ar/samsung-galaxy-a15-5g-128-gb-azul-oscuro-4-gb-ram/p/MLA37291168",
+    "pictures": [
+      {
+        "id": "978173-MLA32582347639_102019",
+        "productId": "MLA83796059239",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_961470-MLA83796059257_042025-O.jpg",
+        "secure_url": "https://http2.mlstatic.com/D_NQ_NP_961470-MLA83796059257_042025-O.jpg",
+        "size": "500x496",
+        "max_size": "1200x1192",
+        "quality": ""
+      },
+      {
+        "id": "754004-MLA32299823528_092019",
+        "productId": "MLA83796059239",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_953316-MLA83795973619_042025-F.jpg",
+        "secure_url": "https://http2.mlstatic.com/D_NQ_NP_2X_953316-MLA83795973619_042025-F.jpg",
+        "size": "500x396",
+        "max_size": "1200x951",
+        "quality": ""
+      },
+      {
+        "id": "616691-MLA27900381255_082018",
+        "productId": "MLA83796059239",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_930126-MLA83796059239_042025-F.jpg",
+        "secure_url": "https://http2.mlstatic.com/D_NQ_NP_2X_930126-MLA83796059239_042025-F.jpg",
+        "size": "500x500",
+        "max_size": "800x800",
+        "quality": ""
+      },
+      {
+        "id": "918230-MLA31424182281_072019",
+        "productId": "MLA83796059239",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_906308-MLA85051996026_052025-F.jpg",
+        "secure_url": "https://http2.mlstatic.com/D_NQ_NP_2X_906308-MLA85051996026_052025-F.jpg",
+        "size": "281x500",
+        "max_size": "1080x1920",
+        "quality": ""
+      }
+    ],
+    "video_id": null,
+    "description": "",
+    "accepts_mercadopago": true,
+    "non_mercado_pago_payment_methods": [],
+    "shipping": {
+      "mode": "me2",
+      "free_methods": [
+        {
+          "id": 73328,
+          "rule": {
+            "default": true,
+            "free_mode": "country",
+            "free_shipping_flag": true,
+            "value": null
+          }
+        }
+      ],
+      "tags": ["self_service_in", "mandatory_free_shipping"],
+      "dimensions": null,
+      "local_pick_up": true,
+      "free_shipping": true,
+      "logistic_type": "drop_off",
+      "store_pick_up": false
+    },
+    "international_delivery_mode": "none",
+    "seller_address": {
+      "city": {
+        "id": "TUxBQlZJTDE2MDBa",
+        "name": "Villa Urquiza"
+      },
+      "state": {
+        "id": "AR-C",
+        "name": "Capital Federal"
+      },
+      "country": {
+        "id": "AR",
+        "name": "Argentina"
+      },
+      "search_location": {
+        "neighborhood": {
+          "id": "TUxBQlZJTDE2MDBa",
+          "name": "Villa Urquiza"
+        },
+        "city": {
+          "id": "TUxBQ0NBUGZlZG1sYQ",
+          "name": "Capital Federal"
+        },
+        "state": {
+          "id": "TUxBUENBUGw3M2E1",
+          "name": "Capital Federal"
+        }
+      },
+      "id": 859653629
+    },
+    "seller_contact": null,
+    "location": {},
+    "coverage_areas": [],
+    "attributes": [
+      {
+        "id": "MAX_RECOMMENDED_AGE",
+        "name": "Edad máxima recomendada",
+        "value_id": null,
+        "value_name": "99 años",
+        "value_struct": {
+          "number": 99,
+          "unit": "años"
+        },
+        "values": [
+          {
+            "id": null,
+            "name": "99 años",
+            "struct": {
+              "number": 99,
+              "unit": "años"
+            }
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "PRODUCT_TYPE",
+        "name": "Tipo de producto",
+        "value_id": null,
+        "value_name": "Celular",
+        "value_struct": null,
+        "values": [
+          {
+            "id": null,
+            "name": "celular",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "",
+        "attribute_group_name": ""
+      },
+      {
+        "id": "BRAND",
+        "name": "Marca",
+        "value_id": "33243",
+        "value_name": "Samsung",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "33243",
+            "name": "Samsung",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "",
+        "attribute_group_name": ""
+      },
+      {
+        "id": "ITEM_CONDITION",
+        "name": "Condición del ítem",
+        "value_id": "2230284",
+        "value_name": "Nuevo",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "2230284",
+            "name": "Nuevo",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "MEMORIA_INTERNA",
+        "name": "Memoria interna",
+        "value_id": "462323",
+        "value_name": "128 GB",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "462323",
+            "name": "128 GB",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "",
+        "attribute_group_name": ""
+      },
+      {
+        "id": "MIN_RECOMMENDED_AGE",
+        "name": "Edad mínima recomendada",
+        "value_id": null,
+        "value_name": "0 años",
+        "value_struct": {
+          "number": 0,
+          "unit": "años"
+        },
+        "values": [
+          {
+            "id": null,
+            "name": "0 años",
+            "struct": {
+              "number": 0,
+              "unit": "años"
+            }
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "MODEL",
+        "name": "Modelo",
+        "value_id": null,
+        "value_name": "Samsung Galaxy A15",
+        "value_struct": null,
+        "values": [
+          {
+            "id": null,
+            "name": "Samsung Galaxy A15",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "CON_NFC",
+        "name": "Con NFC",
+        "value_id": null,
+        "value_name": "Si",
+        "value_struct": null,
+        "values": [
+          {
+            "id": null,
+            "name": "Con NFC",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      }
+    ],
+    "status": "active",
+    "tags": [
+      "good_quality_thumbnail",
+      "loyalty_discount_eligible",
+      "brand_verified",
+      "good_quality_picture",
+      "immediate_payment",
+      "cart_eligible"
+    ],
+    "date_created": "2018-08-04T02:27:28.000Z",
+    "last_updated": "2024-05-04T14:10:53.000Z"
+  }
+]

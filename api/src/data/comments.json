@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "productId": "MLA83796059239",
+    "userId": 1,
+    "question": "Hola tenes en rojo?",
+    "answer": "Hola si tenemos stock",
+    "date": "13/01/2025"
+  },
+  {
+    "id": 2,
+    "productId": "MLA83796059239",
+    "userId": 2,
+    "question": "Hoy esta abierto para poder pasar a verlo?",
+    "answer": "Hola, si. Hasta las 19hs. Saludos!",
+    "date": "24/12/2024"
+  },
+  {
+    "id": 3,
+    "productId": "MLA83796059239",
+    "userId": 3,
+    "question": "Hola tiene disponible para compra inmediata? Envío a Córdoba",
+    "answer": "Que tal, si tenemos stock!",
+    "date": "21/12/2023"
+  },
+  {
+    "id": 4,
+    "productId": "MLA83796059239",
+    "userId": 2,
+    "question": "Si lo compro hoy para cuando mas o menos llegaría? Soy de Santa Cruz",
+    "answer": "Hola antes de la compra te figura que día te llega, por lo general 3-4 días hábiles o menos según el correo",
+    "date": "18/11/2024"
+  },
+  {
+    "id": 6,
+    "productId": "MLA83796059239",
+    "userId": 3,
+    "question": "Si lo compro el sábado, llega el mismo día?",
+    "answer": "Hola, sí, por Mercado Envíos!",
+    "date": "01/02/2025"
+  }
+]
