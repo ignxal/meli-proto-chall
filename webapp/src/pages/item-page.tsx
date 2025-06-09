@@ -1,11 +1,12 @@
-// src/pages/ItemPage.tsx
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Breadcrumbs from "../components/breadcrumbs/breadcrumbs";
+import ItemContainer from "../components/item-container/itemcontainer";
+import type { Product } from "../types/product";
 
 const ItemPage = () => {
   const { id } = useParams();
-  const [item, setItem] = useState<any>(null);
+  const [item, setItem] = useState<Product>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -35,6 +36,9 @@ const ItemPage = () => {
         recomendations={item.recommendations}
         category={item.category}
         subcategories={item.subcategories}
+      />
+      <ItemContainer 
+        item={item}
       />
     </>
   );
