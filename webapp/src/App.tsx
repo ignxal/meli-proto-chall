@@ -1,7 +1,7 @@
 import Navbar from "./components/navbar/navbar.tsx";
-import Breadcrumbs from "./components/breadcrumbs/breadcrumbs.tsx";
-//import ItemContainer from "./components/item-container/itemcontainer.tsx";
+import { Routes, HashRouter, Route, Navigate } from "react-router-dom";
 import "./App.css";
+import ItemPage from "./pages/item-page";
 
 const App = () => {
   return (
@@ -11,11 +11,15 @@ const App = () => {
       </header>
 
       <main>
-        <Breadcrumbs
-          recomendations={"fake - test"}
-          category={"fake"}
-          subcategories={["fake", "fake"]}
-        />
+        <HashRouter>
+          <Routes>
+            <Route
+              path="/"
+              element={<Navigate to="/items/MLA83796059239" replace />}
+            />
+            <Route path="/items/:id" element={<ItemPage />} />
+          </Routes>
+        </HashRouter>
       </main>
 
       <footer></footer>
