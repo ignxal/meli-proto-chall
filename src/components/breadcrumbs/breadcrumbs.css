@@ -7,6 +7,10 @@
   margin-bottom: 8px;
 }
 
+.text-interest span {
+  cursor: pointer;
+}
+
 .breadcrumbs-row,
 .breadcrumbs,
 .share-or-sell {
