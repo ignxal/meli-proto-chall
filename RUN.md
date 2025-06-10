@@ -41,6 +41,15 @@ cd ../api
 npm install
 ```
 
+#### Configure Environment Variables (API)
+The API uses environment variables, managed by `dotenv`.
+Create a file named `.env` file in the **root** of the `api` directory and add the following line:
+
+```bash
+PORT=3000
+```
+**Note**: You can change 3000 to any available port you prefer for the API.
+
 ### 3. Running the Project
 
 For the complete application to function, both the API and the web application must be running simultaneously.
