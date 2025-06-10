@@ -6,104 +6,121 @@ This guide explains how to set up and run the `meli-prototype-chall` project, in
 
 Ensure you have the following installed:
 
-- Node.js (v18 or higher)
-- npm (v9 or higher)
+- Node.js (v18 or higher): This runtime is essential for both the web application and the API.
+- npm (v9 or higher): Node.js package manager, used for installing dependencies.
 
 ## Setup Instructions
 
 ### 1. Clone the Repository
 
-Clone the project repository to your local machine:
+Start by cloning the project from its GitHub repository to your local machine:
 
 ```bash
-git clone https://github.com/ignxal/meli-proto-chall
+git clone https://github.com/ignxal/meli-proto-challenge
 ```
 
 ### 2. Install Dependencies
 
-#### Web Application
+The project is structured with separate webapp and api directories, each with its own dependencies.
 
-Navigate to the `webapp` directory and install dependencies:
+#### Web Application (Frontend)
+
+Navigate into the `webapp` directory and install the necessary packages:
 
 ```bash
 cd webapp
 npm install
 ```
 
-#### API
+#### API (Backend)
 
-Navigate to the `api` directory and install dependencies:
+Next, move to the `api` directory and install its dependencies:
 
 ```bash
 cd ../api
 npm install
 ```
 
-### 3. Run the Project
+### 3. Running the Project
+
+For the complete application to function, both the API and the web application must be running simultaneously.
+
+#### API
+
+From the `api` directory, run the development server:
+
+```bash
+cd api
+npm run dev
+```
+
+You should see a message indicating the API is listening on the configured port.
 
 #### Web Application
 
-To start the development server for the web application:
+In a **separate terminal window**, navigate to the `webapp` directory and start its development server::
 
 ```bash
 cd webapp
 npm run dev
 ```
 
-The application will be available at `http://localhost:5173`.
+The web application will typically open in your browser at  `http://localhost:5173`.
 
-#### API
 
-To start the API server in development mode:
+### 4. Building the Project for Production
 
-```bash
-cd ../api
-npm run dev
-```
+To prepare the project for deployment, you can build production-ready versions of both the web application and the API.
 
-The API will be available at `http://localhost:3000`.
+#### Build the Web Application
 
-### 4. Build the Project
-
-#### Web Application
-
-To build the web application for production:
+From the `webapp` directory:
 
 ```bash
-cd webapp
 npm run build
 ```
 
-#### API
+This will create an optimized build in the `dist` folder within `webapp`.
 
-To build the API:
+#### Build the API
+
+From the `api` directory:
 
 ```bash
-cd ../api
 npm run build
 ```
+
+This will compile the TypeScript code into JavaScript in the `dist` folder within `api`.
+
+## Testing
+
+The API includes unit tests to ensure its functionality.
+
+### Run API Tests
+
+From the `api` directory, execute the tests:
+```bash
+npm run test
+```
+
+This command will run all tests and generate a code coverage report.
 
 ## Additional Commands
 
 ### Web Application
 
-- **Linting**: Run ESLint to check for code issues:
+- **Linting**: Check for code style issues and potential errors.
   ```bash
+  cd webapp
   npm run lint
   ```
-- **Preview**: Preview the production build:
+- **Preview**: Serve the production build locally to test it.
   ```bash
   npm run preview
   ```
 
-### API
-
-- **Start**: Run the API server after building:
-  ```bash
-  npm run start
-  ```
-
 ## Notes
 
-- Ensure both the web application and API are running simultaneously for full functionality.
-- Update dependencies periodically to keep the project secure and up-to-date.
+- **Simultaneous Operation:** Always ensure both the web application and API are running concurrently for the project to function correctly.
+- **Dependencies:** Regularly update project dependencies using npm install within each directory to maintain security and incorporate the latest features..
+- **Troubleshooting:** If you encounter issues, verify that all prerequisites are met and check the console output for error messages. Ensure the correct port numbers are being used and are not already in use by other applications.
