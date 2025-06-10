@@ -25,7 +25,7 @@ const Reviews = ({ reviews: initialReviews, product }: ReviewsProps) => {
         };
     };
 
-    const [reviewList, setReviewList] = useState<ReviewType[]>(initialReviews); // Renamed state variable
+    const [reviewList, setReviewList] = useState<ReviewType[]>(initialReviews); 
     const [newReviewFormData, setNewReviewFormData] = useState<ReviewType>(createEmptyReview());
     const [showNewReviewErrors, setShowNewReviewErrors] = useState<boolean>(false);
     const [showReviewsWithType, setShowReviewsWithType] = useState<string>("all");

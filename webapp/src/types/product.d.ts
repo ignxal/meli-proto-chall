@@ -29,6 +29,18 @@ export interface Pictures {
   selected: boolean;
 }
 
+export interface Color {
+  id: string;
+  name: string;
+  productId: string;
+  url: string;
+  secure_url: string;
+  size: string;
+  max_size: string;
+  quality: string;
+  selected: boolean;
+}
+
 export interface Attributes {
   id: string;
   name: string;
@@ -45,6 +57,8 @@ export interface Product {
   site_id: string;
   title: string;
   subtitle?: string | null | undefined;
+  colors: Color[];
+  brief_details: string[];
   seller_id: number;
   category_id: string;
   official_store_id?: string | null | undefined;
