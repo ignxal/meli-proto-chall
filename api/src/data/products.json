@@ -15,6 +15,33 @@
     "available_quantity": 2,
     "sold_quantity": 50,
     "sale_terms": [],
+    "colors": [
+      {
+        "id": "616691-MLA27900381255_082018",
+        "name": "Azul oscuro",
+        "productId": "MLA83796059239",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_930126-MLA83796059239_042025-F.jpg",
+        "secure_url": "https://http2.mlstatic.com/D_NQ_NP_2X_930126-MLA83796059239_042025-F.jpg",
+        "size": "500x500",
+        "max_size": "400x800",
+        "quality": ""
+      },
+      {
+        "id": "918230-MLA31424182281_072019",
+        "name": "Verde",
+        "productId": "MLA83796059239",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_906308-MLA85051996026_052025-F.jpg",
+        "secure_url": "https://http2.mlstatic.com/D_NQ_NP_2X_906308-MLA85051996026_052025-F.jpg",
+        "size": "281x500",
+        "max_size": "1080x1920",
+        "quality": ""
+      }
+    ],
+    "brief_details": [
+      "Memoria Ram: 8 GB",
+      "Dispositivo desbloqueado para que elijas tu compañía telefónica favorita",
+      "Memoria interna de 256 GB"
+    ],
     "buying_mode": "buy_it_now",
     "listing_type_id": "gold_special",
     "start_time": "2018-08-04T02:27:28.000Z",
