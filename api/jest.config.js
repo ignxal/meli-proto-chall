@@ -17,7 +17,9 @@ module.exports = {
 	],
 	coverageReporters: ["cobertura"],
 	collectCoverageFrom: [
-		"**/src/**/*.{js,jsx,ts,tsx}",
+		"**/src/controllers/*.{js,jsx,ts,tsx}",
+		"**/src/models/*.{js,jsx,ts,tsx}",
+		"**/src/routes/*.{js,jsx,ts,tsx}",
 		"!**/node_modules/**",
 		"!**/dist/**",
 		"!**/.work/**",
