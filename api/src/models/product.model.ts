@@ -1,4 +1,4 @@
-export interface Comment {
+export interface QuestionAnswer {
   id: number;
   userId: number;
   productId: string;

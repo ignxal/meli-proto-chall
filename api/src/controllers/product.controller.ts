@@ -1,11 +1,11 @@
 import { Request, Response } from "express";
-import { Product, Review, Comment } from "../models/product.model";
+import { Product, Review, QuestionAnswer } from "../models/product.model";
 import productsData from "../data/products.json";
-import commentsData from "../data/comments.json";
+import questionanswerData from "../data/questionanswer.json";
 import reviewsData from "../data/reviews.json";
 
 const products: Product[] = productsData as Product[];
-const comments: Comment[] = commentsData as Comment[];
+const qas: QuestionAnswer[] = questionanswerData as QuestionAnswer[];
 const reviews: Review[] = reviewsData as Review[];
 
 export const getProductById = (req: Request, res: Response) => {
@@ -16,12 +16,12 @@ export const getProductById = (req: Request, res: Response) => {
   else res.status(200).json(product);
 };
 
-export const getCommentsByProductId = (req: Request, res: Response) => {
-  const commentsFiltered = comments.filter(
-    (x: Comment) => x.productId === req.params.id
+export const getQAsByProductId = (req: Request, res: Response) => {
+  const qasFiltered = qas.filter(
+    (x: QuestionAnswer) => x.productId === req.params.id
   );
 
-  res.status(200).json(commentsFiltered || []);
+  res.status(200).json(qasFiltered || []);
 };
 
 export const getReviewsByProductId = (req: Request, res: Response) => {
