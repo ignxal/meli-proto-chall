@@ -5,3 +5,5 @@ npm-debug.log
 dist
 dist-report
 coverage
+*.log
+logs
