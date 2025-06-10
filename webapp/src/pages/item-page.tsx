@@ -6,7 +6,7 @@ import type { Product, QA, Review } from "../types/product";
 
 const ItemPage = () => {
   const { id } = useParams();
-  const [item, setItem] = useState<Product>(null);
+  const [item, setItem] = useState<Product>();
   const [qas, setQAs] = useState<QA[]>([]);
   const [reviews, setReviews] = useState<Review[]>([]);
   const [loading, setLoading] = useState(true);

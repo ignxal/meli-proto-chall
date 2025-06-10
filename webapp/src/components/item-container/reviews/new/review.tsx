@@ -14,7 +14,7 @@ interface ReviewProps {
     removeDislike: () => void;
 }
 
-const Review = (props: ReviewProps) => {
+const ReviewComponent = (props: ReviewProps) => {
     const [vote, setVote] = useState<{ hasVoted: boolean; value: string }>({ hasVoted: false, value: "" });
 
     const handleUserVote = (userVote: "like" | "dislike") => {
@@ -75,4 +75,4 @@ const Review = (props: ReviewProps) => {
     );
 };
 
-export default Review;
+export default ReviewComponent;
