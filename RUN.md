@@ -1,6 +1,6 @@
 # Project Setup Guide
 
-This guide explains how to set up and run the `meli-prototype-chall` project, including both the web application and the API.
+This guide explains how to set up and run the `meli-proto-challenge` project, including both the web application and the API.
 
 ## Prerequisites
 
@@ -48,6 +48,7 @@ Create a file named `.env` file in the **root** of the `api` directory and add t
 ```bash
 PORT=3000
 ```
+
 **Note**: You can change 3000 to any available port you prefer for the API.
 
 ### 3. Running the Project
@@ -75,7 +76,6 @@ npm run dev
 ```
 
 The web application will typically open in your browser at  `http://localhost:5173`.
-
 
 ### 4. Building the Project for Production
 
