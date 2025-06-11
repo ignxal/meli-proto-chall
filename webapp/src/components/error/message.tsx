@@ -18,7 +18,7 @@ const errorMessage = ({ type }: ErrorMessageProps) => {
       color: "#B45309",
     };
   } else {
-    title = "Error de conexión con la API";
+    title = "Error de conexión";
     message =
       "No fue posible cargar los datos. Verifica tu conexión con la API.";
     style = {
@@ -36,7 +36,7 @@ const errorMessage = ({ type }: ErrorMessageProps) => {
         padding: "1rem",
         borderRadius: "0.375rem",
         maxWidth: "48rem",
-        margin: "2rem auto 0",
+        margin: "auto",
         position: "relative",
       }}
       role="alert"
