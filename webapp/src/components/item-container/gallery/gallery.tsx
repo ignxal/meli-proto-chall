@@ -49,7 +49,11 @@ const Gallery = ({ pictures }: GalleryProps) => {
 
         <div className="main-img">
           {selectedPicture ? (
-            <img src={selectedPicture.url} alt="Imagen del producto" />
+            <img
+              src={selectedPicture.url}
+              alt="Imagen del producto"
+              style={{ maxWidth: "350px" }}
+            />
           ) : (
             <p>No image available</p>
           )}
