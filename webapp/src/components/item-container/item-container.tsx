@@ -11,6 +11,7 @@ import Reviews from "./reviews/reviews";
 import ProductDelivery from "./delivery/delivery";
 import ProductPrice from "./price/price";
 import Purchase from "./purchase/purchase";
+import useWindowWidth from "../../hooks/use-window-width";
 
 interface ItemContainerProps {
   item: Product;
@@ -19,6 +20,8 @@ interface ItemContainerProps {
 }
 
 const ItemContainer = ({ item, qas, reviews }: ItemContainerProps) => {
+  const width = useWindowWidth();
+
   return (
     //<section className="main-container product-details-grid bg-white">
     //  <article className="right-column"></article>
@@ -40,9 +43,26 @@ const ItemContainer = ({ item, qas, reviews }: ItemContainerProps) => {
         <div style={{ display: "flex", flexDirection: "row" }}>
           <article className="left-column">
             <Gallery pictures={item.pictures} />
+            {width <= 1200 ? (
+              <article className="main-right-column">
+                <SellerInfo></SellerInfo>
+
+                <Purchase></Purchase>
+              </article>
+            ) : (
+              ""
+            )}
           </article>
           <article className="right-column">
             <ProductPrice product={item} reviews={reviews} />
+            {width <= 1200 ? (
+              <article className="main-right-column">
+                {<ProductDelivery product={item} />}
+                <OtherSellers></OtherSellers>
+              </article>
+            ) : (
+              ""
+            )}
           </article>
         </div>
         <SellerPosts />
@@ -51,12 +71,16 @@ const ItemContainer = ({ item, qas, reviews }: ItemContainerProps) => {
         <QuestionsAndAnswers qas={qas} />
         <Reviews reviews={reviews} product={item} />
       </div>
-      <article className="main-right-column">
-        <ProductDelivery product={item} />
-        <SellerInfo></SellerInfo>
-        <OtherSellers></OtherSellers>
-        <Purchase></Purchase>
-      </article>
+      {width > 1200 ? (
+        <article className="main-right-column">
+          {<ProductDelivery product={item} />}
+          <SellerInfo></SellerInfo>
+          <OtherSellers></OtherSellers>
+          <Purchase></Purchase>
+        </article>
+      ) : (
+        ""
+      )}
     </section>
   );
 };
