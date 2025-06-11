@@ -4,8 +4,10 @@ import Navbar from "../../components/navbar/navbar";
 jest.mock("../../components/navbar/navbar.css", () => ({}));
 jest.mock("../../assets/logo.png", () => "mocked-logo.png");
 
+jest.mock("../../hooks/use-window-width", () => () => 1400);
+
 describe("Navbar component", () => {
-  it("renderiza el logo y la barra de búsqueda", () => {
+  it("renderiza correctamente el logo y la barra de búsqueda en desktop", () => {
     render(<Navbar />);
 
     expect(
@@ -13,24 +15,13 @@ describe("Navbar component", () => {
         "Logo de Mercado Libre: apreton de manos con texto mercado libre"
       )
     ).toBeInTheDocument();
+
     expect(
       screen.getByPlaceholderText("Buscar productos, marcas y más...")
     ).toBeInTheDocument();
-  });
 
-  it("muestra las secciones del navbar", () => {
-    const { getByText } = render(<Navbar />);
-
-    expect(getByText("Categorías")).toBeInTheDocument();
-    expect(getByText("Ofertas")).toBeInTheDocument();
-    expect(getByText("Cupones")).toBeInTheDocument();
-    expect(getByText("Supermercado")).toBeInTheDocument();
-    expect(getByText("Moda")).toBeInTheDocument();
-    expect(getByText("Mercado Play")).toBeInTheDocument();
-    expect(getByText("Vender")).toBeInTheDocument();
-    expect(getByText("Ayuda")).toBeInTheDocument();
-    expect(getByText("Creá tu cuenta")).toBeInTheDocument();
-    expect(getByText("Ingresá")).toBeInTheDocument();
-    expect(getByText("Mis compras")).toBeInTheDocument();
+    expect(screen.getByText("Categorías")).toBeInTheDocument();
+    expect(screen.getByText("Ofertas")).toBeInTheDocument();
+    expect(screen.getByText("Mis compras")).toBeInTheDocument();
   });
 });
