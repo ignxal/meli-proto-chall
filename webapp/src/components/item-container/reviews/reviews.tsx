@@ -302,7 +302,7 @@ const Reviews = ({ reviews: initialReviews, product }: ReviewsProps) => {
       </div>
 
       <div>
-        <div className="main-buttons">
+        <div className="reviews-main-buttons">
           <button
             className={`btn-category ${
               showReviewsWithType === "all" ? "btn-category-selected" : ""
