@@ -1,0 +1,18 @@
+// tsconfig.json (or tsconfig.jest.json)
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // or "react" depending on your React version and setup
+    "esModuleInterop": true, // Recommended for better module imports
+    "allowSyntheticDefaultImports": true, // Allows default imports for modules without default exports
+    "moduleResolution": "node", // Ensures Node.js style module resolution
+    "target": "es2018", // Or a newer ES version like "es2020"
+    "lib": ["dom", "dom.iterable", "esnext"], // Include DOM types for web app testing
+    "types": ["jest", "node", "@testing-library/jest-dom"] // Include Jest and Testing Library types
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.d.ts" // Include declaration files
+  ],
+  "exclude": ["node_modules", "dist"]
+}
