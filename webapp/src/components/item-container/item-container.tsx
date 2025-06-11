@@ -4,6 +4,7 @@ import Gallery from "./gallery/gallery";
 import Features from "./features/features";
 import Description from "./description/description";
 import SellerPosts from "./seller/posts/sellerposts";
+import SellerInfo from "./seller/info/sellerinfo";
 import QuestionsAndAnswers from "./qa/questionsanswers";
 import Reviews from "./reviews/reviews";
 import ProductDelivery from "./delivery/delivery";
@@ -51,6 +52,7 @@ const ItemContainer = ({ item, qas, reviews }: ItemContainerProps) => {
       </div>
       <article className="main-right-column">
         <ProductDelivery product={item} />
+        <SellerInfo></SellerInfo>
         <Purchase></Purchase>
       </article>
     </section>
