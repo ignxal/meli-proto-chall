@@ -10,6 +10,26 @@
     "dislikes": 0
   },
   {
+    "id": 1,
+    "productId": "MLA32285149",
+    "userId": 1,
+    "title": "Excelente",
+    "comments": "Excelente era lo que esperaba.",
+    "rating": 5,
+    "likes": 3,
+    "dislikes": 0
+  },
+  {
+    "id": 3,
+    "productId": "MLA32285149",
+    "userId": 3,
+    "title": "Mala bateria.",
+    "comments": "La bateria dura muy poco.",
+    "rating": 2,
+    "likes": 3,
+    "dislikes": 6
+  },
+  {
     "id": 2,
     "productId": "MLA83796059239",
     "userId": 2,

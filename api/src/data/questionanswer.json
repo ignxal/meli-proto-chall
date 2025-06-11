@@ -24,6 +24,14 @@
     "date": "21/12/2023"
   },
   {
+    "id": 3,
+    "productId": "MLA32285149",
+    "userId": 3,
+    "question": "Hola tiene disponible para compra inmediata? Envío a Córdoba",
+    "answer": "Que tal, si tenemos stock!",
+    "date": "21/12/2024"
+  },
+  {
     "id": 4,
     "productId": "MLA83796059239",
     "userId": 2,

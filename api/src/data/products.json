@@ -513,12 +513,12 @@
         "id": "MEMORIA_INTERNA",
         "name": "Memoria interna",
         "value_id": "462323",
-        "value_name": "128 GB",
+        "value_name": "256 GB",
         "value_struct": null,
         "values": [
           {
             "id": "462323",
-            "name": "128 GB",
+            "name": "256",
             "struct": null
           }
         ],
@@ -551,12 +551,12 @@
         "id": "MODEL",
         "name": "Modelo",
         "value_id": null,
-        "value_name": "Samsung Galaxy A15",
+        "value_name": "Samsung Galaxy A25",
         "value_struct": null,
         "values": [
           {
             "id": null,
-            "name": "Samsung Galaxy A15",
+            "name": "Samsung Galaxy A25",
             "struct": null
           }
         ],
