@@ -17,9 +17,7 @@ const Gallery = ({ pictures }: GalleryProps) => {
   );
 
   const [selectedPicture, setSelectedPicture] = useState(() =>
-    pictures.length > 0
-      ? { ...pictures[0], selected: true }
-      : null
+    pictures.length > 0 ? { ...pictures[0], selected: true } : null
   );
 
   const handleSelectThumbnail = (thumbnailId: string) => {
