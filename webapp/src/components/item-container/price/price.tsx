@@ -8,16 +8,15 @@ import type { Product, Review } from "../../../types/product";
 
 interface ProductPriceProps {
   product: Product;
+  reviews: Review[];
 }
 
-const ProductPrice = ({ product }: ProductPriceProps) => {
+const ProductPrice = ({ product, reviews }: ProductPriceProps) => {
   const [favorite, setFavorite] = useState(false);
 
   const [selectedColor, setSelectedColor] = useState(product.colors[0]);
 
   const handleFavorite = () => setFavorite((prevState) => !prevState);
-  const reviews: Review[] = product.reviews || []; 
-  
 
   const formattedPrice = new Intl.NumberFormat("es-AR").format(product.price);
   const paymentTwelveMonths = Math.trunc(product.price / 12);
@@ -97,6 +96,7 @@ const ProductPrice = ({ product }: ProductPriceProps) => {
             <img
               src={color.secure_url}
               alt={color.name}
+              style={{ width: 40, height: 85 }}
               className={
                 selectedColor === color ? "selected-color-image" : "color-image"
               }
@@ -120,8 +120,7 @@ const ProductPrice = ({ product }: ProductPriceProps) => {
           3 productos nuevos desde {product.base_price}
         </p>
       </div>
-
-         </section>
+    </section>
   );
 };
 

@@ -39,7 +39,7 @@ const ItemContainer = ({ item, qas, reviews }: ItemContainerProps) => {
             <Gallery pictures={item.pictures} />
           </article>
           <article className="right-column">
-            <ProductPrice product={item} />
+            <ProductPrice product={item} reviews={reviews} />
           </article>
         </div>
         <SellerPosts />
