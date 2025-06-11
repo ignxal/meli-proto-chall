@@ -1,20 +1,15 @@
-import {
-  MdSmartphone,
-  MdMemory,
-  MdBrandingWatermark,
-  MdScreenLockPortrait,
-} from "react-icons/md";
+import React from "react";
+import { MdSmartphone, MdMemory, MdBrandingWatermark } from "react-icons/md";
 import "./features.css";
 import type { Attributes } from "../../../types/product";
 import { LuNfc } from "react-icons/lu";
 import { FaMobileScreen } from "react-icons/fa6";
-import { MdOutlineAddToHomeScreen } from "react-icons/md";
 
 interface FeaturesProps {
   attributes: Array<Attributes>;
 }
 
-const featuresData: Record<string, JSX.Element> = {
+const featuresData: Record<string, React.JSX.Element> = {
   Marca: <MdBrandingWatermark />,
   Modelo: <MdSmartphone />,
   "Memoria interna": <MdMemory />,

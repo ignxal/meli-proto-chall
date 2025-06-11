@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Breadcrumbs from "../components/breadcrumbs/breadcrumbs";
-import ItemContainer from "../components/item-container/item-container.tsx";
+import ItemContainer from "../components/item-container/item-container";
 import ErrorMessage from "../components/error/message";
 import type { Product, QA, Review } from "../types/product";
 import {
   fetchProduct,
   fetchProductQAs,
   fetchProductReviews,
-} from "../services/api.ts";
-import Loader from "../components/loader/loader.tsx";
+} from "../services/api";
+import Loader from "../components/loader/loader";
 
 const ItemPage = () => {
   const { id } = useParams();

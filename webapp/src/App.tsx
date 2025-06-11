@@ -1,4 +1,4 @@
-import Navbar from "./components/navbar/navbar.tsx";
+import Navbar from "./components/navbar/navbar";
 import { Routes, HashRouter, Route, Navigate } from "react-router-dom";
 import "./App.css";
 import ItemPage from "./pages/item-page";

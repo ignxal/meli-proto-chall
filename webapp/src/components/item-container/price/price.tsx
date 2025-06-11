@@ -107,8 +107,8 @@ const ProductPrice = ({ product, reviews }: ProductPriceProps) => {
 
       <div className="brief-description">
         <b> Lo que tienes que saber de este producto</b>
-        {product.brief_details.map((detail) => (
-          <li>{detail}</li>
+        {product.brief_details.map((detail, index) => (
+          <li key={index}>{detail}</li>
         ))}
       </div>
 
