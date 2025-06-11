@@ -4,6 +4,11 @@ import Breadcrumbs from "../components/breadcrumbs/breadcrumbs";
 import ItemContainer from "../components/item-container/itemcontainer";
 import ErrorMessage from "../components/error/message";
 import type { Product, QA, Review } from "../types/product";
+import {
+  fetchProduct,
+  fetchProductQAs,
+  fetchProductReviews,
+} from "../services/api.ts";
 
 const ItemPage = () => {
   const { id } = useParams();
@@ -11,42 +16,25 @@ const ItemPage = () => {
   const [qas, setQAs] = useState<QA[]>([]);
   const [reviews, setReviews] = useState<Review[]>([]);
   const [loading, setLoading] = useState(true);
-  const [connectionError, setConnectionError] = useState<boolean>(false);
-  const [notFoundError, setNotFoundError] = useState<boolean>(false);
+  const [connectionError, setConnectionError] = useState(false);
+  const [notFoundError, setNotFoundError] = useState(false);
 
   useEffect(() => {
-    const fetchItem = async () => {
+    const fetchItemData = async () => {
       try {
-        const productResponse = await fetch(
-          `http://localhost:3000/api/v1/products/${id}`
-        );
+        if (!id) throw new Error("ID no definido");
 
-        const productJson = await productResponse.json();
+        const product = await fetchProduct(id);
+        const qas = await fetchProductQAs(id);
+        const reviews = await fetchProductReviews(id);
 
-        if (
-          !productResponse.ok ||
-          productResponse.status === 404 ||
-          productResponse.status === 500
-        )
-          throw productJson.error;
-
-        setItem(productJson);
-
-        const qasResponse = await fetch(
-          `http://localhost:3000/api/v1/products/${id}/qas`
-        );
-        const qasJson = await qasResponse.json();
-        setQAs(qasJson);
-
-        const reviewsResponse = await fetch(
-          `http://localhost:3000/api/v1/products/${id}/reviews`
-        );
-        const reviewsJson = await reviewsResponse.json();
-        setReviews(reviewsJson);
+        setItem(product);
+        setQAs(qas);
+        setReviews(reviews);
       } catch (error) {
         console.error("Error fetching item:", error);
 
-        if (typeof error === "string" && error.includes("no encontrado")) {
+        if (error instanceof Error && error.message.includes("no encontrado")) {
           setNotFoundError(true);
         } else {
           setConnectionError(true);
@@ -56,7 +44,7 @@ const ItemPage = () => {
       }
     };
 
-    fetchItem();
+    fetchItemData();
   }, [id]);
 
   if (loading)
@@ -66,8 +54,8 @@ const ItemPage = () => {
       </center>
     );
 
-  if (notFoundError || !item) return <ErrorMessage type="404" />;
   if (connectionError) return <ErrorMessage type="500" />;
+  if (notFoundError || !item) return <ErrorMessage type="404" />;
 
   return (
     <>
