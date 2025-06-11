@@ -1,0 +1,78 @@
+.other-sellers-title {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 16px;
+  margin: 0;
+}
+
+.other-sellers-container {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 24px;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+  unicode-bidi: isolate;
+}
+
+.others-sellers-button-ui {
+  font-weight: 600;
+  padding: 0;
+}
+.others-sellers-button-anchor-ui {
+  border: 0;
+  font-weight: 400;
+  height: auto;
+  line-height: normal;
+  padding: 0;
+}
+.others-seller-button--transparent,
+.others-seller-button--transparent:focus,
+.others-seller-button--transparent:link,
+.others-seller-button--transparent:visited {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--andes-color-blue-500, #3483fa);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .others-seller-button--transparent {
+    transition: box-shadow 0.25s ease-out, background-color 0.2s ease-out;
+  }
+}
+.others-seller-button--transparent {
+  box-shadow: 0 0 0 0 #fff;
+  cursor: pointer;
+}
+.others-seller-button--full-width {
+  display: block;
+  width: 100%;
+}
+.others-seller-button,
+.others-seller-button * {
+  box-sizing: border-box;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .others-seller-button {
+    transition: 0.18s ease-out;
+    transition-property: background, color;
+  }
+}
+.others-seller-button {
+  border-radius: 6px;
+  display: inline-block;
+  font-family: Proxima Nova, -apple-system, Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 24px;
+  text-align: center;
+  width: auto;
+  -webkit-font-smoothing: antialiased;
+}
