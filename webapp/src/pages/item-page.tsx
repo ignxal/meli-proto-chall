@@ -33,8 +33,6 @@ const ItemPage = () => {
         setQAs(qas);
         setReviews(reviews);
       } catch (error) {
-        console.error("Error fetching item:", error);
-
         if (error instanceof Error && error.message.includes("no encontrado")) {
           setNotFoundError(true);
         } else {

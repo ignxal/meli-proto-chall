@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { nanoid } from "nanoid";
 import "./reviews.css";
 import ReviewComponent from "./new/review";
 import { AiFillStar } from "react-icons/ai";
@@ -14,7 +13,7 @@ interface ReviewsProps {
 const Reviews = ({ reviews: initialReviews, product }: ReviewsProps) => {
   const createEmptyReview = (): ReviewType => {
     return {
-      id: parseInt(nanoid()),
+      id: Math.floor(Math.random() * 1000000),
       productId: product.id,
       userId: 1,
       title: "",
