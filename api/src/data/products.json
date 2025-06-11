@@ -299,5 +299,297 @@
     ],
     "date_created": "2018-08-04T02:27:28.000Z",
     "last_updated": "2024-05-04T14:10:53.000Z"
+  },
+  {
+    "id": "MLA32285149",
+    "site_id": "MLA",
+    "title": "Samsung Galaxy A25 5G Dual SIM 256 GB Azul oscuro 8 GB RAM",
+    "subtitle": "",
+    "seller_id": 987654321,
+    "category_id": "MLA1432",
+    "official_store_id": null,
+    "price": 299999,
+    "base_price": 299999,
+    "original_price": 389999,
+    "currency_id": "ARS",
+    "initial_quantity": 45,
+    "available_quantity": 5,
+    "sold_quantity": 40,
+    "sale_terms": [],
+    "colors": [
+      {
+        "id": "616691-MLA27900381255_082018",
+        "name": "Azul oscuro",
+        "productId": "MLA83796059239",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_655216-MLA74434233144_022024-F.jpg",
+        "secure_url": "https://http2.mlstatic.com/D_NQ_NP_2X_655216-MLA74434233144_022024-F.jpg",
+        "size": "500x500",
+        "max_size": "400x800",
+        "quality": ""
+      },
+      {
+        "id": "918230-MLA31424182281_072019",
+        "name": "Azul",
+        "productId": "MLA83796059239",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_780927-MLU74422065705_022024-F.jpg",
+        "secure_url": "https://http2.mlstatic.com/D_NQ_NP_2X_780927-MLU74422065705_022024-F.jpg",
+        "size": "281x500",
+        "max_size": "1080x1920",
+        "quality": ""
+      }
+    ],
+    "brief_details": [
+      "Memoria Ram: 8 GB",
+      "Dispositivo desbloqueado para que elijas tu compañía telefónica favorita",
+      "Memoria interna de 256 GB"
+    ],
+    "buying_mode": "buy_it_now",
+    "listing_type_id": "gold_special",
+    "start_time": "2018-08-04T02:27:28.000Z",
+    "stop_time": "2038-07-29T04:00:00.000Z",
+    "condition": "new",
+    "permalink": "https://www.mercadolibre.com.ar/samsung-galaxy-a25-5g-dual-sim-azul-128-gb-6-gb/p/MLA32285149",
+    "category": "Celular",
+    "subcategories": ["Celulares y Smartphones", "Samsung"],
+    "recommendations": "celular samsung galaxy s22 fe 5g 128 6gb cloud navy - samsung galaxy a34 5g 128gb - samsung 6gb ram",
+    "pictures": [
+      {
+        "id": "978173-MLA32582347639_102020",
+        "productId": "MLA32285149",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_810687-MLU74305598098_022024-O.jpg",
+        "secure_url": "https://http2.mlstatic.com/D_NQ_NP_810687-MLU74305598098_022024-O.jpg",
+        "size": "500x496",
+        "max_size": "1200x1192",
+        "quality": ""
+      },
+      {
+        "id": "754004-MLA32299823528_092020",
+        "productId": "MLA32285149",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_780927-MLU74422065705_022024-F.jpg",
+        "secure_url": "https://http2.mlstatic.com/D_NQ_NP_2X_780927-MLU74422065705_022024-F.jpg",
+        "size": "500x396",
+        "max_size": "1200x951",
+        "quality": ""
+      },
+      {
+        "id": "616691-MLA27900381255_082020",
+        "productId": "MLA32285149",
+        "url": "https://http2.mlstatic.com/D_NQ_NP_2X_933198-MLU74422026661_022024-F.jpg",
+        "secure_url": "https://http2.mlstatic.com/D_NQ_NP_2X_933198-MLU74422026661_022024-F.jpg",
+        "size": "500x500",
+        "max_size": "800x800",
+        "quality": ""
+      }
+    ],
+    "video_id": null,
+    "description": "Teléfono móvil Samsung Galaxy A25 5G, cámara trasera triple de hasta 50 MP (estabilización óptica), selfie de 13 MP, pantalla Super AMOLED Infinity de 6.5 pulgadas y 120 Hz, sonido estéreo Dolby Atmos, grabación de vídeo 4K, 128 GB, 6 GB, procesador Octa-Core, batería de larga duración, doble chip.",
+    "accepts_mercadopago": true,
+    "non_mercado_pago_payment_methods": [],
+    "shipping": {
+      "mode": "me2",
+      "free_methods": [
+        {
+          "id": 73328,
+          "rule": {
+            "default": true,
+            "free_mode": "country",
+            "free_shipping_flag": true,
+            "value": null
+          }
+        }
+      ],
+      "tags": ["self_service_in", "mandatory_free_shipping"],
+      "dimensions": null,
+      "local_pick_up": true,
+      "free_shipping": true,
+      "logistic_type": "drop_off",
+      "store_pick_up": false
+    },
+    "international_delivery_mode": "none",
+    "seller_address": {
+      "city": {
+        "id": "TUxBQlZJTDE2MDBa",
+        "name": "Villa Urquiza"
+      },
+      "state": {
+        "id": "AR-C",
+        "name": "Capital Federal"
+      },
+      "country": {
+        "id": "AR",
+        "name": "Argentina"
+      },
+      "search_location": {
+        "neighborhood": {
+          "id": "TUxBQlZJTDE2MDBa",
+          "name": "Villa Urquiza"
+        },
+        "city": {
+          "id": "TUxBQ0NBUGZlZG1sYQ",
+          "name": "Capital Federal"
+        },
+        "state": {
+          "id": "TUxBUENBUGw3M2E1",
+          "name": "Capital Federal"
+        }
+      },
+      "id": 859653629
+    },
+    "seller_contact": null,
+    "location": {},
+    "coverage_areas": [],
+    "attributes": [
+      {
+        "id": "MAX_RECOMMENDED_AGE",
+        "name": "Edad máxima recomendada",
+        "value_id": null,
+        "value_name": "99 años",
+        "value_struct": {
+          "number": 99,
+          "unit": "años"
+        },
+        "values": [
+          {
+            "id": null,
+            "name": "99 años",
+            "struct": {
+              "number": 99,
+              "unit": "años"
+            }
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "PRODUCT_TYPE",
+        "name": "Tipo de producto",
+        "value_id": null,
+        "value_name": "Celular",
+        "value_struct": null,
+        "values": [
+          {
+            "id": null,
+            "name": "celular",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "",
+        "attribute_group_name": ""
+      },
+      {
+        "id": "BRAND",
+        "name": "Marca",
+        "value_id": "33243",
+        "value_name": "Samsung",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "33243",
+            "name": "Samsung",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "",
+        "attribute_group_name": ""
+      },
+      {
+        "id": "ITEM_CONDITION",
+        "name": "Condición del ítem",
+        "value_id": "2230284",
+        "value_name": "Nuevo",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "2230284",
+            "name": "Nuevo",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "MEMORIA_INTERNA",
+        "name": "Memoria interna",
+        "value_id": "462323",
+        "value_name": "128 GB",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "462323",
+            "name": "128 GB",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "",
+        "attribute_group_name": ""
+      },
+      {
+        "id": "MIN_RECOMMENDED_AGE",
+        "name": "Edad mínima recomendada",
+        "value_id": null,
+        "value_name": "0 años",
+        "value_struct": {
+          "number": 0,
+          "unit": "años"
+        },
+        "values": [
+          {
+            "id": null,
+            "name": "0 años",
+            "struct": {
+              "number": 0,
+              "unit": "años"
+            }
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "MODEL",
+        "name": "Modelo",
+        "value_id": null,
+        "value_name": "Samsung Galaxy A15",
+        "value_struct": null,
+        "values": [
+          {
+            "id": null,
+            "name": "Samsung Galaxy A15",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "CON_NFC",
+        "name": "Con NFC",
+        "value_id": null,
+        "value_name": "Si",
+        "value_struct": null,
+        "values": [
+          {
+            "id": null,
+            "name": "Con NFC",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      }
+    ],
+    "status": "active",
+    "tags": [
+      "good_quality_thumbnail",
+      "loyalty_discount_eligible",
+      "brand_verified",
+      "good_quality_picture",
+      "immediate_payment",
+      "cart_eligible"
+    ],
+    "date_created": "2018-08-04T02:27:28.000Z",
+    "last_updated": "2024-05-04T14:10:53.000Z"
   }
 ]
