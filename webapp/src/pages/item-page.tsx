@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Breadcrumbs from "../components/breadcrumbs/breadcrumbs";
-import ItemContainer from "../components/item-container/itemcontainer";
+import ItemContainer from "../components/item-container/item-container.tsx";
 import ErrorMessage from "../components/error/message";
 import type { Product, QA, Review } from "../types/product";
 import {
