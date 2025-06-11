@@ -6,11 +6,11 @@ import { PiMedalLight } from "react-icons/pi";
 import type { Product, Review } from "../../../types/product";
 
 interface ProductDeliveryProps {
-    product: Product;
-  }
-  
-  const ProductDelivery = ({ product }: ProductDeliveryProps) => {
-  const reviews: Review[] = product.reviews || []; 
+  product: Product;
+}
+
+const ProductDelivery = ({ product }: ProductDeliveryProps) => {
+  const reviews: Review[] = product.reviews || [];
 
   let avgRating: number = 0;
   if (reviews) {
@@ -61,12 +61,12 @@ interface ProductDeliveryProps {
           alt="Samsung"
           style={{ width: 50, height: 30, marginRight: 10 }}
         />
-        <p>
+        <span>
           Tienda oficial <span className="blue-anchor">Samsung</span>
           <p>
             <b>+5mil ventas</b>
           </p>
-        </p>
+        </span>
       </div>
 
       <div className="purchase-benefits">
