@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "033c5cb9-bd78-4ad7-a851-c3293596fead",
+		"_postman_id": "ef9b6e61-a2f9-4333-851e-0b5f4977819b",
 		"name": "product-api",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "22427052"
+		"_exporter_id": "15998339"
 	},
 	"item": [
 		{
@@ -138,16 +138,10 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": [
-							{
-								"key": "Token",
-								"value": "{{API_Token_Helpdesk}}",
-								"type": "text"
-							}
-						],
+						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"learning_plan\": \"66d0c6d7e25d73bf3df17090\",\r\n    \"resource\": \"ilogiudice@aeroterra.com\",\r\n    \"resource_list\": 900201344889,\r\n    \"list_folder\": 90020734300\r\n}"
+							"raw": ""
 						},
 						"url": {
 							"raw": "{{api_url}}/api/v1/products/MLA83796059239",
