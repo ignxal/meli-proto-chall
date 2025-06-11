@@ -8,6 +8,7 @@ import QuestionsAndAnswers from "./qa/questionsanswers";
 import Reviews from "./reviews/reviews";
 import ProductDelivery from "./delivery/delivery";
 import ProductPrice from "./price/price";
+import Purchase from "./purchase/purchase";
 
 interface ItemContainerProps {
   item: Product;
@@ -50,6 +51,7 @@ const ItemContainer = ({ item, qas, reviews }: ItemContainerProps) => {
       </div>
       <article className="main-right-column">
         <ProductDelivery product={item} />
+        <Purchase></Purchase>
       </article>
     </section>
   );
