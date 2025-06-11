@@ -9,6 +9,7 @@ import {
   fetchProductQAs,
   fetchProductReviews,
 } from "../services/api.ts";
+import Loader from "../components/loader/loader.tsx";
 
 const ItemPage = () => {
   const { id } = useParams();
@@ -47,12 +48,7 @@ const ItemPage = () => {
     fetchItemData();
   }, [id]);
 
-  if (loading)
-    return (
-      <center>
-        <p>Cargando...</p>
-      </center>
-    );
+  if (loading) return <Loader></Loader>;
 
   if (connectionError) return <ErrorMessage type="500" />;
   if (notFoundError || !item) return <ErrorMessage type="404" />;
