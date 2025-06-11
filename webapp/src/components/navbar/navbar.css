@@ -151,3 +151,80 @@ input::-webkit-input-placeholder {
   padding-left: 10px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1200px) {
+  nav {
+    height: 50px;
+  }
+}
+
+.navbar-mobile-main-container {
+  height: 50px;
+  padding: 0 5px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d6d6d6;
+  background-color: var(--meli-yellow);
+}
+
+.search-input-container-mobile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.search-input-mobile {
+  height: 32px;
+  width: 100%;
+  font-size: 1em;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+}
+
+.search-icon-mobile {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.4);
+  padding: 0 10px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.mobile-top-icon {
+  font-size: 25px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.shipping-address-mobile {
+  height: 39px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--meli-yellow);
+  border-bottom: 1px solid #dbdbdb;
+  padding: 0 10px;
+}
+
+.address-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.address-mobile p {
+  font-size: 13px;
+}
+
+.user-icon-mobile {
+  font-size: 40px;
+  color: #bbb;
+  padding: 10px;
+  background-color: #ededed;
+  border-radius: 50%;
+}
